@@ -88,7 +88,6 @@ a:hover{
 
 .navbar a:hover{
     background: #aaa;
-    background: repeating-linear-gradient(to right, #eaaafe, #aaeeff);
     border-radius: 3px;
 } 
 
@@ -133,7 +132,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    color:  silver;
+    color: silver;
 }
 
 .store{
@@ -150,6 +149,11 @@ a:hover{
 
 .info{
     text-decoration: none;
+}
+
+#imgz p, blockquote{
+    padding: 6px;
+    text-align: justify;
 }
 
 p{
@@ -177,14 +181,14 @@ p{
          text-decoration: none;
          padding: 17px;
          margin: 7px;
-         background: darkgoldenrod;
+         background: rgb(165, 140, 76);
          color: snow;
          border-radius: 5px;
         
      }
 
      .footer a:hover{
-        background: repeating-linear-gradient(to right, #eaaafe, #aaeeff);
+        background: rgb(206, 193, 193);
         border-radius: 3px;
         padding: 20px;
     }
@@ -216,7 +220,7 @@ p{
     
     /*contact */
     .contactus{
-        background: linear-gradient(to right, #eaaafe, #aaeeff);
+        background: #7cd9f0;
         width: 180px;
         padding: 8px;
         border-radius: 5px;
@@ -297,22 +301,20 @@ p{
         display: block;
         margin:  20px 0;
         padding: 10px;
-        border-radius: 5px;
+        border-radius: 50px;
         font-weight: bold;
         font-size: large;
         color: inherit;
         cursor: pointer;
         border: none;
-        background: linear-gradient(to right, #eaaafe, #aaeeff);
+        background: rgb(206, 193, 193);
         text-align: center;
     }
 
     fieldset{
-       
-        background: linear-gradient(to right, #eaaafe, #aaeeff);
+        background: rgb(236, 231, 231);
         border-radius: 5px;
         text-align: left;
-
     }
 
     fieldset legend{
@@ -350,11 +352,9 @@ p{
         cursor: pointer; 
     }
 
-   
-
-
+    
     .ton:hover{
-        background-color: rgb(146, 196, 193);
+        background-color: rgb(206, 193, 193);
     }
 
     /* advertise */
@@ -373,6 +373,7 @@ p{
 
     p{
         margin: 6px;
+        text-align: ;
     }
     
 
