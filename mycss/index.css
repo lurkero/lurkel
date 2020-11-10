@@ -6,6 +6,7 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    text-align: center;
 }
 
 
@@ -80,7 +81,7 @@ a:hover{
     font-size: 5em;
     margin: 0;
     letter-spacing: .4em;
-    font-family: magneto;
+    font-family: jokerman;
     opacity: 0.5;
 }
 
@@ -188,7 +189,6 @@ p{
         padding: 20px;
     }
 
-
     /* about */
 
     .about{
@@ -218,10 +218,11 @@ p{
     .contactus{
         background: linear-gradient(to right, #eaaafe, #aaeeff);
         width: 180px;
-        padding: 14px;
+        padding: 8px;
         border-radius: 5px;
         text-align: center;
         margin:  40px auto;
+        font-size: 22px;
     }
 
 
@@ -237,6 +238,10 @@ p{
     .contactus:hover{
         width: 200px;
         transition: linear;
+    }
+
+    .phone{
+        font-family: jokerman;
     }
 
     .num{
@@ -306,6 +311,7 @@ p{
        
         background: linear-gradient(to right, #eaaafe, #aaeeff);
         border-radius: 5px;
+        text-align: left;
 
     }
 
@@ -324,20 +330,28 @@ p{
 
     legend{
         font-family: harlow;
-        font-size: 25px
+        font-size: 25px;
+    }
+
+    form .option, .ton{
+        margin: 25px auto;
     }
 
     .option{
         width: 150px;
         font-size: large;
+        margin-top: -25px;
     }
 
 
     .ton{
         width: 150px;
         font-size: large;
-        cursor: pointer;
+        cursor: pointer; 
     }
+
+   
+
 
     .ton:hover{
         background-color: rgb(146, 196, 193);
@@ -373,7 +387,7 @@ p{
 
     
 #header{
-    background-color: rgba( 0, 0, 0, .16px);
+    background-color: rgba( 0, 0, 0, .1);
     background-image: url("../myphotoz/blue.jpg");
     background-blend-mode: multiply;
     background-position: center;
@@ -410,8 +424,8 @@ p{
     font-size: 3em;
     margin: 0;
     letter-spacing: .4em;
-    opacity: 0.5;
-    font-family: magneto;
+    opacity: 0.6;
+    font-family: jokerman;
 }
 
 
