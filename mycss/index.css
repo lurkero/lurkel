@@ -126,8 +126,8 @@ a:hover{
 }
 
 .service{
-    background-color: rgba( 0, 0, 0,  .7);
-    background-image: url("../myphotoz/sorryy.png");
+    background-color: rgba( 0, 0, 0, .7);
+    background-image: url("../myphotoz/sorry.png");
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ a:hover{
 }
 
 .store{
-    background-color: rgba( 0, 0, 0,  .7);
+    background-color: rgba( 0, 0, 0, .7);
     background-image: url("../myphotoz/car.jpeg");
     background-blend-mode: multiply;
     background-position: center;
