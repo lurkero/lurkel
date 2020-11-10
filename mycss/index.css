@@ -125,8 +125,8 @@ a:hover{
 }
 
 .service{
-    background-color: rgba( 0, 0, 0, .7);
-    background-image: url("../myphotoz/Earth.jpeg");
+    background-color: rgba( 0, 0, 0,  .7);
+    background-image: url("../myphotoz/Leafe.jpeg");
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,8 +136,8 @@ a:hover{
 }
 
 .store{
-    background-color: rgba( 0, 0, 0, .7);
-    background-image: url("../myphotoz/images.jfif");
+    background-color: rgba( 0, 0, 0,  .7);
+    background-image: url("../myphotoz/Leafe.jpeg");
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
@@ -166,6 +166,10 @@ p{
     width: 50%;
     text-align: center;
     
+}
+
+#imgz .advert{
+    text-align: center;
 }
 
 
