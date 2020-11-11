@@ -147,6 +147,26 @@ a:hover{
 }
 
 
+.head{
+    padding: 0;
+    margin: 6px 0 0 0;
+    text-align: center;
+    color: yellowgreen;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.aside img{
+    border-radius: 9px;
+    width: 60%;
+}
+
+.aside .order{
+    color: yellowgreen;
+    font-weight: bolder;
+}
+
+
 .info{
     text-decoration: none;
 }
