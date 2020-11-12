@@ -153,17 +153,26 @@ a:hover{
     text-align: center;
     color: yellowgreen;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
 }
 
 .aside img{
     border-radius: 9px;
     width: 60%;
+    border: #CACACb solid 2px;
 }
 
 .aside .order{
     color: yellowgreen;
     font-weight: bolder;
+    border: #CACACb solid 2px;
+    background: rgb(133, 133, 133);
+    margin: auto;
+    width: 50%;
+    border-radius: 9px;
+
 }
 
 
@@ -184,7 +193,6 @@ p{
     margin: 0;
     padding: 6px;
     width: 50%;
-    text-align: center;
     
 }
 
