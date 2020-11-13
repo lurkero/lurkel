@@ -299,25 +299,6 @@ p{
        letter-spacing: 3px;
    }
 
-   input[type="radio"]{
-             opacity: 0;
-             width: 0;
-             margin: 0;
-   }
-
-   label[for="male"], label[for="female"], label[for="other"]{
-       margin-bottom: 16px;
-       display: inline-block;
-       padding-left: 16px;
-       cursor: pointer;
-       line-height: 16px;
-   }
-
-   input:checked + label[for="male"],
-   input:checked + label[for="female"],
-   input:checked + label[for="other"]{
-    color: rgb(1, 114, 167);
-   }
 
    label[for="fishing"], 
    label[for="book"], 
@@ -416,8 +397,6 @@ p{
     #wrapper{
         background: #eee; 
     }
-    
-
     
 #header{
     background-color: rgba( 0, 0, 0, .1);
