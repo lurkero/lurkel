@@ -41,7 +41,7 @@ a:hover{
 
 #wrapper{
    
-    max-width: 990px;
+    max-width: 85%;
     margin: auto;
     background: #eee; 
 }
@@ -55,6 +55,9 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+     position: sticky;
+    top: 0;
+    z-index: 10px;
 }
 
 
@@ -73,13 +76,15 @@ a:hover{
     color: snow;
     padding: 7px 15px;
     margin: 16px;
+    margin-bottom: 0;
 }
 
 
 .lurkero2{
     color: yellowgreen;
-    font-size: 5em;
+    font-size:  3em;
     margin: 0;
+    padding: 0;
     letter-spacing: .4em;
     font-family: jokerman;
     opacity: 0.5;
@@ -87,7 +92,7 @@ a:hover{
 
 
 .navbar a:hover{
-    background: #aaa;
+    background: #e5e7eb;
     border-radius: 3px;
 } 
 
@@ -204,25 +209,19 @@ p{
      /* footer styling */
      
      #footer{
+        background-color: #f8f9fa;
          text-align: center;
-         margin-bottom: 20px;
+     }
+
+     #footer img{
+         width:  50px;
+         margin: 10px;
          margin-top: 40px;
      }
 
-     .footer a{
-         text-decoration: none;
-         padding: 17px;
-         margin: 7px;
-         background: rgb(165, 140, 76);
-         color: snow;
-         border-radius: 5px;
-        
-     }
-
-     .footer a:hover{
-        background: rgb(206, 193, 193);
-        border-radius: 3px;
-        padding: 20px;
+     .footer a:hover img{
+        transform: translateY(-20px);
+        /*transform: rotateZ(60deg);*/
     }
 
     /* about */
@@ -325,7 +324,7 @@ p{
     }
 
     fieldset{
-        background: rgb(236, 231, 231);
+        background: #f8f9fa;
         border-radius: 5px;
         text-align: left;
     }
@@ -396,6 +395,7 @@ p{
 
     #wrapper{
         background: #eee; 
+        max-width: 100%;
     }
     
 #header{
@@ -472,8 +472,16 @@ p{
         padding: 5px;
     }
 
+    #footer img{
+        width:  26px;
+        margin: 0;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+
     .footer a:hover{
-        padding: 10px 20px;
+        padding: 10px 2px;
     }
 
 }
