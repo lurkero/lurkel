@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="mycss/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="mycss/index.css">
 	<title>lurkero</title>
 </head>
@@ -10,24 +11,41 @@
 	<div id="wrapper">
 
 		<header id="header"> 
-			<div class="logo">
-				<h3 class="l">L</h3>
-				<span class="lurkero">Lurkero</span>
-			</div>
 
-				<nav class="navbar main-nav">
-						<ul>
-							<li><a href="index.html">HOME</a></li>
-	
-							<li><a href="store.html">STORE</a></li>
-	
-							<li><a href="services.html">SERVICES</a></li>
-	
-							<li><a href="about.html">ABOUT US</a></li>
-	
-							<li><a href="contact.html">CONTACT</a></li>
-						</ul>
-				</nav>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+					<div class="logo">
+						<h3 class="l">L</h3>
+						<span class="lurkero">Lurkero</span>
+					</div>
+				  <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </div>
+				  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<div>
+						<br>
+					</div>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="store.html">STORE</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="services.html">SERVICES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">ABOUT US</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link last-link" href="contact.html">CONTACT</a>
+						</li>
+					</ul>
+				  </div>
+				</div>
+			  </nav>
+			
 			<h1 class="lurkero2"><marquee>Lurkero.com</marquee></h1>
 		</header>
 	
@@ -141,5 +159,9 @@ You can listen to playlists with motivational songs on Spotify to help you get g
 			<span class="copy">Copyright &copy; 2019 By Lurkero</span>
 		</footer>
 	</div>
+	
+	<script src="j/jquery-1.9.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
 </body>
 </html>

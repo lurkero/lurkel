@@ -58,6 +58,37 @@ a:hover{
 }
 
 
+.logo{
+    display: flex;
+    cursor: pointer;
+    width: 130px;
+
+}
+
+
+.l{
+    background: repeating-linear-gradient(to right, #eaaafe, #aaeeff);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: jokerman;
+    color: rgb(112, 167, 3);
+}
+
+.lurkero{
+    font-size: large;
+    margin-top: 1px;
+    font-weight: bolder;
+    font-family: jokerman;
+    color: rgb(114, 170, 2);
+}
+
+
 .navbar ul{
     list-style: none;
     padding: 0;
@@ -93,38 +124,6 @@ a:hover{
     border-radius: 3px;
 } 
 
-
-.logo{
-    display: flex;
-    position: relative;
-    top: 7px;
-    cursor: pointer;
-    width: 130px;
-
-}
-
-
-.l{
-    background: repeating-linear-gradient(to right, #eaaafe, #aaeeff);
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 32px;
-    border-radius: 50px;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-family: jokerman;
-    color: rgb(112, 167, 3);
-}
-
-.lurkero{
-    font-size: large;
-    margin-top: 1px;
-    font-weight: bolder;
-    font-family: jokerman;
-    color: rgb(114, 170, 2);
-}
 
 .service{
     background-color: rgba( 0, 0, 0,  .7);
@@ -191,10 +190,14 @@ p{
     padding: 6px;
 }
 
-#imgz img{
+img{
+    width: 100%;
     margin: 0;
     padding: 6px;
-    width: 50%;
+    margin: 5px;
+    text-align: center;
+    padding: 0;
+   
     
 }
 
@@ -388,7 +391,7 @@ p{
 
 
    /* Meadia Query */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 985px){
 
     #wrapper{
         background: #eee; 
@@ -410,11 +413,11 @@ p{
     text-decoration: none;
     border-bottom: 1px solid #CACACb;
     color: #666;
-    padding: 12px 20px;
     display: block;
     text-align: left;
-    margin: 16px 0;
-    margin-bottom: -20px;
+    margin: 0;
+    padding: 5px;
+
 }
 
 
@@ -438,12 +441,9 @@ p{
 }
 
 
-#imgz img{
+img{
     margin: 0;
-    text-align: center;
-    width: 100%;
-    padding: 0;
-    
+    margin-bottom: 5px;
 }
 
 
@@ -480,6 +480,7 @@ p{
     .footer a:hover{
         padding: 10px 2px;
     }
+
 
 }
 
