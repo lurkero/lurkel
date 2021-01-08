@@ -148,6 +148,19 @@ a:hover{
 }
 
 
+.men1{
+    color: #b4b4b8;
+    padding: 0;
+    margin: 0;
+}
+
+.men2{
+ color: #666;
+ padding: 0;
+ margin: 0;
+}
+
+
 .head{
     padding: 0;
     margin: 6px 0 0 0;
@@ -161,29 +174,17 @@ a:hover{
 
 .aside img{
     border-radius: 9px;
-    width: 60%;
+    width: 80%;
     border: #CACACb solid 2px;
 }
-
-.aside .order{
-    color: yellowgreen;
-    font-weight: bolder;
-    border: #CACACb solid 2px;
-    background: rgb(133, 133, 133);
-    margin: auto;
-    width: 50%;
-    border-radius: 9px;
-
-}
-
 
 .info{
     text-decoration: none;
 }
 
-#imgz p, blockquote{
+blockquote{
     padding: 6px;
-    text-align: justify;
+    text-align: left;
 }
 
 p{
@@ -191,7 +192,7 @@ p{
 }
 
 img{
-    width: 100%;
+    width: 99%;
     margin: 0;
     padding: 6px;
     margin: 5px;
@@ -222,6 +223,11 @@ img{
      .footer a:hover img{
         transform: translateY(-20px);
         /*transform: rotateZ(60deg);*/
+    }
+
+    .copy{
+        color: #b4b4b9;
+        line-height: 50px;
     }
 
     /* about */
