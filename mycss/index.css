@@ -1,6 +1,6 @@
 
 body{
-    background: #ccc;
+    background-color: #ecf0f3;
     color: #555;
     margin: 0;
     padding: 0;
@@ -8,7 +8,6 @@ body{
     width: 100%;
     text-align: center;
 }
-
 
 @font-face{
     font-family: 'Magneto';
@@ -33,38 +32,15 @@ body{
     font-weight: 100;
 }
 
-
 a:hover{
     color: rgb(63, 78, 214);
 }
-
-
-#wrapper{
-   
-    max-width: 85%;
-    margin: auto;
-    background: #eee; 
-}
-
-
-#header{
-    background-color: rgba( 0, 0, 0,  .3);
-    background-image: url("../myphotoz/Orange.jpeg");
-    background-blend-mode: multiply;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-
 
 .logo{
     display: flex;
     cursor: pointer;
     width: 130px;
-
 }
-
 
 .l{
     background: repeating-linear-gradient(to right, #eaaafe, #aaeeff);
@@ -85,28 +61,8 @@ a:hover{
     margin-top: 1px;
     font-weight: bolder;
     font-family: jokerman;
-    color: rgb(114, 170, 2);
+    color: rgb(135, 192, 21);
 }
-
-
-.navbar ul{
-    list-style: none;
-    padding: 0;
-}
-
-.navbar li{
-    display: inline;
-}
-
-.navbar a{
-    display: inline-block;
-    text-decoration: none;
-    color: snow;
-    padding: 7px 15px;
-    margin: 0 16px;
-    margin-bottom: 0;
-}
-
 
 .lurkero2{
     color: yellowgreen;
@@ -118,11 +74,79 @@ a:hover{
     opacity: 0.5;
 }
 
+#header{
+    background-color: rgba( 0, 0, 0, .3);
+    background-image: url("../myphotoz/Orange.jpeg");
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
 
-.navbar a:hover{
-    background: #e5e7eb;
-    border-radius: 3px;
-} 
+.navbar a{
+    text-decoration: none;
+    padding: 7px 15px;
+    margin: 0 16px;
+    margin-bottom: 0;
+    color: #d2d2e7 !important;
+    font-weight: 700;
+}
+
+a.dropdown-item{
+    color: chocolate !important;
+    margin: 0;
+}
+
+.navbar li a:hover{
+    color:  rgb(240, 160, 102) !important;
+}
+
+
+#main{
+    max-width: 95%;
+    margin: auto;  
+}
+
+#main img{
+    width: 100%;
+    padding: 10px;
+}
+
+#main p, blockquote{
+    text-align: justify;
+    padding: 12px;
+}
+
+.more-info{
+    margin:  40px auto;
+}
+
+a.info{
+    text-decoration: none;
+    background: #7cd9f0;
+    padding: 8px 40px;
+    border-radius: 5px;
+    margin:  40px auto;
+    font-size: 22px;
+}
+
+#proverb{
+    background-color: rgba( 0, 0, 0, .3);
+    background-image: url("../myphotoz/love.jfif");
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 450px;
+    color: #cacada;
+}
+
+.proverb-p{
+    position: relative;
+    top: 300px;
+}
 
 
 .service{
@@ -136,6 +160,12 @@ a:hover{
     color: silver;
 }
 
+.service p{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
 .store{
     background-color: rgba( 0, 0, 0,  .7);
     background-image: url("../myphotoz/images.jfif");
@@ -147,348 +177,273 @@ a:hover{
     color: silver;
 }
 
+#store-container{
+    max-width: 96%;
+}
+
+.aside img{
+    width: 70%;
+    border-radius: 9px;
+    width: 80%;
+    border: #CACACb solid 2px;
+    margin-bottom: 5px;
+}
+
+blockquote.head{
+    text-align: center;
+    color: yellowgreen;
+    font-weight: bolder;
+    font-size: 20px;
+}
 
 .men1{
     color: #b4b4b8;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .men2{
- color: #666;
+ color: rgb(153, 149, 149);
  padding: 0;
  margin: 0;
+ text-align: center;
+ 
 }
 
-
-.head{
-    padding: 0;
-    margin: 6px 0 0 0;
-    text-align: center;
-    color: yellowgreen;
-    font-weight: bolder;
-    font-size: 20px;
-    margin: auto;
-    width: 50%;
-}
-
-.aside img{
-    border-radius: 9px;
-    width: 80%;
-    border: #CACACb solid 2px;
-}
-
-.info{
-    text-decoration: none;
-}
-
-blockquote{
-    padding: 6px;
-    text-align: left;
-}
-
-p{
-    padding: 6px;
-}
-
-img{
-    width: 99%;
-    margin: 0;
-    padding: 6px;
-    margin: 5px;
-    text-align: center;
-    padding: 0;
-   
-    
-}
-
-#imgz .advert{
-    text-align: center;
-}
-
-
-     /* footer styling */
-     
-     #footer{
-        background-color: #f8f9fa;
-         text-align: center;
-     }
-
-     #footer img{
-         width:  50px;
-         margin: 10px;
-         margin-top: 40px;
-     }
-
-     .footer a:hover img{
-        transform: translateY(-20px);
-        /*transform: rotateZ(60deg);*/
-    }
-
-    .copy{
-        color: #b4b4b9;
-        line-height: 50px;
-    }
-
-    /* about */
-
-    .about{
-        background-color: rgba( 0, 0, 0,  .7);
-        background-image: url("../myphotoz/Leafe.jpeg");
-        background-blend-mode: multiply;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        color: silver;
-        
-    }
-
-    .about p{
-        margin: 0;
-        text-align: left;
-    }
-
-    .about h1{
-        font-family: jokerman;
-    }
-       
-
-    
-    /*contact */
-    .contactus{
-        background: #7cd9f0;
-        width: 180px;
-        padding: 8px;
-        border-radius: 5px;
-        text-align: center;
-        margin:  40px auto;
-        font-size: 22px;
-    }
-
-
-    .contact{
-        text-align: center;
-    }
-
-    .contact p{
-        font-size: larger;
-        font-weight: bolder;
-    }
-
-    .contactus:hover{
-        width: 200px;
-        transition: linear;
-    }
-
-    .phone{
-        font-family: jokerman;
-    }
-
-    .num{
-        font-family: harlow;
-    }
-
-    .lurke{
-        font-family: jokerman;
-    }
-
-
-    /* form info */
-   form{
-       margin: 16px;
-   }
-
-   form p{
-       font-family: harlow;
-       letter-spacing: 3px;
-   }
-
-
-   label[for="fishing"], 
-   label[for="book"], 
-   label[for="movie"], 
-   label[for="song"], 
-   label[for="acting"]{
-        cursor: pointer;
-        margin-bottom: 16px;
-        display: inline-block;
-    }
-
-    select{
-        display: block;
-        margin:  20px 0;
-        padding: 10px;
-        border-radius: 50px;
-        font-weight: bold;
-        font-size: large;
-        color: inherit;
-        cursor: pointer;
-        border: none;
-        background: rgb(206, 193, 193);
-        text-align: center;
-    }
-
-    fieldset{
-        background: #f8f9fa;
-        border-radius: 5px;
-        text-align: left;
-    }
-
-    fieldset legend{
-        text-align: center;
-    }
-
-    input[type="email"],
-    input[type="telephone"],
-    input[type="submit"]{
-        display: block;
-        margin-bottom: 20px;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    legend{
-        font-family: harlow;
-        font-size: 25px;
-    }
-
-    form .option, .ton{
-        margin: 25px auto;
-    }
-
-    .option{
-        width: 150px;
-        font-size: large;
-        margin-top: -25px;
-    }
-
-
-    .ton{
-        width: 150px;
-        font-size: large;
-        cursor: pointer; 
-    }
-
-    
-    .ton:hover{
-        background-color: rgb(206, 193, 193);
-    }
-
-    /* advertise */
-    .intouch{
-        text-align: center;
-    }
-
-    .intouch p{
-        margin: 0;
-    }
-
-    #imgz a{
-        text-decoration: none;
-        font-size: larger;
-    }
-
-    p{
-        margin: 6px;
-        text-align: ;
-    }
-    
-
-
-   /* Meadia Query */
-@media screen and (max-width: 985px){
-
-    #wrapper{
-        background: #eee; 
-        max-width: 100%;
-    }
-    
-#header{
-    background-color: rgba( 0, 0, 0, .1);
-    background-image: url("../myphotoz/blue.jpg");
+.about{
+    background-color: rgba( 0, 0, 0,  .7);
+    background-image: url("../myphotoz/Leafe.jpeg");
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 1s;
-}
-
-
-.navbar a{
-    text-decoration: none;
-    border-bottom: 1px solid #CACACb;
-    color: #666;
-    display: block;
-    text-align: left;
-    margin: 0;
-    padding: 5px;
-
-}
-
-
-.lurkero{
-    font-size: large;
-    margin-top: 1px;
-    font-weight: bolder;
-    font-family: jokerman;
-    color: rgb(114, 170, 2);
-}
-
-
-
-.lurkero2{
-    color: rgb(112, 167, 3);
-    font-size: 3em;
-    margin: 0;
-    letter-spacing: .4em;
-    opacity: 0.6;
-    font-family: jokerman;
-}
-
-
-img{
-    margin: 0;
-    margin-bottom: 5px;
-}
-
-
-
-  /* contact about */
-
-  .contactus{
-      border-radius: 50px;
-      margin:  40px auto;
-  }
-
+    text-align: center;
+    color: silver;
     
-        /* footer styling */
-        
-    #footer{
-        text-align: center;
-    }
-
-    .footer a{
-        text-decoration: none;
-        color: inherit;
-        margin: 4px;
-        padding: 5px;
-    }
-
-    #footer img{
-        width:  26px;
-        margin: 0;
-        padding: 0;
-        margin-top: 40px;
-    }
-
-
-    .footer a:hover{
-        padding: 10px 2px;
-    }
-
-
 }
 
 
+.about{
+    background-color: rgba( 0, 0, 0,  .7);
+    background-image: url("../myphotoz/Leafe.jpeg");
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: silver;
+    
+}
 
+.about p{
+    margin: 0;
+    text-align: left;
+}
+
+.about h1{
+    font-family: jokerman;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact p{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.info:hover{
+    padding: 8px 50px;
+    transition: linear;
+}
+
+.phone{
+    font-family: jokerman;
+}
+
+.num{
+    font-family: harlow;
+}
+
+.lurke{
+    font-family: jokerman;
+}
+
+
+/* form info */
+form{
+   margin: 16px;
+}
+
+form p{
+   font-family: harlow;
+   letter-spacing: 3px;
+}
+
+
+label[for="fishing"], 
+label[for="book"], 
+label[for="movie"], 
+label[for="song"], 
+label[for="acting"]{
+    cursor: pointer;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+fieldset{
+    background: #f8f9fa;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+}
+
+fieldset legend{
+    text-align: center;
+}
+
+select.option{
+    border-radius: 5px;
+    padding: 7px 25px;
+    font-size: large;
+    color: inherit;
+    cursor: pointer;
+    border: none;
+    background: rgb(206, 193, 193);
+}
+
+input[type="email"],
+input[type="telephone"],
+input[type="submit"]{
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px 55px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+input[type="submit"]:hover{
+   color: rgb(240, 160, 102);
+}
+
+legend{
+    font-family: harlow;
+    font-size: 25px;
+    color: darkgray;
+}
+
+form .option, .ton{
+    margin: 25px auto;
+}
+
+
+/* advertise */
+.intouch{
+    text-align: center;
+}
+
+
+   /* footer styling */
+     
+   #footer{
+    background-color: #f8f9fa;
+     text-align: center;
+ }
+
+ #footer img{
+     width:  50px;
+     margin: 10px;
+     margin-top: 40px;
+ }
+
+ .footer a:hover img{
+    transform: translateY(-20px);
+    /*transform: rotateZ(60deg);*/
+}
+
+.copy{
+    color: #b4b4b9;
+    line-height: 50px;
+}
+
+  /* Meadia Query */
+@media screen and (max-width: 985px){
+
+    .lurkero{
+        font-size: large;
+        margin-top: 1px;
+        font-weight: bolder;
+        font-family: jokerman;
+        color: rgb(139, 199, 20);
+    }
+
+    .lurkero2{
+        color: rgb(139, 199, 20);
+        font-size: 3em;
+        margin: 0;
+        letter-spacing: .4em;
+        opacity: 0.5;
+        font-family: jokerman;
+    }
+
+    .navbar a{
+        text-align: left;
+        margin: 5px 0;
+        padding: 4px;
+        margin-left: 10px;
+    }
+
+    a.dropdown-item{
+        margin: 0;
+    }
+
+    a.info{
+      border-radius: 50px;
+    }
+
+         /* footer styling */
+        
+         #footer{
+            text-align: center;
+        }
+    
+        .footer a{
+            text-decoration: none;
+            color: inherit;
+            margin: 4px;
+            padding: 5px;
+        }
+    
+        #footer img{
+            width:  26px;
+            margin: 0;
+            padding: 0;
+            margin-top: 40px;
+        }
+    
+    
+        .footer a:hover{
+            padding: 10px 2px;
+        }
+    
+        .footer a:hover img{
+            /*transform: translateY(-20px);*/
+            transform: rotateZ(30deg);
+        }
+
+}
+
+@media screen and (max-width: 580px){
+    .contact-h1{
+        font-size: x-large;
+    }
+}
