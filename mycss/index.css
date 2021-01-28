@@ -98,6 +98,11 @@ a.dropdown-item{
     margin: 0;
 }
 
+
+a.dropdown-item:hover{
+    background-color: #ecf0f3;
+}
+
 .navbar li a:hover{
     color:  rgb(240, 160, 102) !important;
 }
@@ -132,7 +137,7 @@ a.info{
 }
 
 #proverb{
-    background-color: rgba( 0, 0, 0, .3);
+    background-color: rgba( 0, 0, 0, .4);
     background-image: url("../myphotoz/love.jfif");
     background-blend-mode: multiply;
     background-position: center;
@@ -161,8 +166,8 @@ a.info{
 }
 
 .service p{
-    text-align: center;
-    padding: 10px;
+    text-align: justify;
+    padding: 7px 20px;
     margin: 0;
 }
 
@@ -178,15 +183,20 @@ a.info{
 }
 
 #store-container{
-    max-width: 96%;
+    max-width: 95%;
+    margin: auto;
+}
+
+.paragraph{
+    text-align: left;
+    padding: 0 16px;
 }
 
 .aside img{
-    width: 70%;
     border-radius: 9px;
     width: 80%;
     border: #CACACb solid 2px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 blockquote.head{
@@ -206,26 +216,16 @@ blockquote.head{
 .men2{
  color: rgb(153, 149, 149);
  padding: 0;
- margin: 0;
+ margin: auto;
  text-align: center;
+ border: #CACACb solid 2px;
+ border-radius: 9px;
+ width:  229px;
  
 }
 
 .about{
-    background-color: rgba( 0, 0, 0,  .7);
-    background-image: url("../myphotoz/Leafe.jpeg");
-    background-blend-mode: multiply;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: silver;
-    
-}
-
-
-.about{
-    background-color: rgba( 0, 0, 0,  .7);
+    background-color: rgba( 0, 0, 0, .7);
     background-image: url("../myphotoz/Leafe.jpeg");
     background-blend-mode: multiply;
     background-position: center;
@@ -238,6 +238,7 @@ blockquote.head{
 
 .about p{
     margin: 0;
+    padding: 10px;
     text-align: left;
 }
 
@@ -321,6 +322,7 @@ input[type="submit"]{
     margin-bottom: 20px;
     padding: 5px 10px;
     border-radius: 5px;
+    border:rgb(153, 149, 149) solid 1.5px
 }
 
 input[type="submit"]{
@@ -347,10 +349,10 @@ form .option, .ton{
 
 
 /* advertise */
-.intouch{
-    text-align: center;
+#advertise-vidoes{
+    max-width: 94%;
+    margin: auto;
 }
-
 
    /* footer styling */
      
@@ -410,6 +412,7 @@ form .option, .ton{
       border-radius: 50px;
     }
 
+
          /* footer styling */
         
          #footer{
@@ -446,4 +449,9 @@ form .option, .ton{
     .contact-h1{
         font-size: x-large;
     }
+
+    .aside img{
+        width: 100%; 
+    }
+
 }
