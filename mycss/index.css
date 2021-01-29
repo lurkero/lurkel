@@ -171,6 +171,11 @@ a.info{
     margin: 0;
 }
 
+.service-p{
+    text-align: center;
+    padding: 0 12px;
+}
+
 .store{
     background-color: rgba( 0, 0, 0,  .7);
     background-image: url("../myphotoz/images.jfif");
@@ -248,6 +253,7 @@ blockquote.head{
 
 .contact{
     text-align: center;
+    color: #828283;
 }
 
 .contact p{
@@ -258,6 +264,15 @@ blockquote.head{
 .info:hover{
     padding: 8px 50px;
     transition: linear;
+}
+
+.contact-span{
+    font-family: harlow;
+    font-size: larger;
+}
+
+.contact-hii{
+    display: none;
 }
 
 .phone{
@@ -412,6 +427,12 @@ form .option, .ton{
       border-radius: 50px;
     }
 
+    .service-p{
+        text-align: start;
+        padding: 0 12px;
+    }
+    
+
 
          /* footer styling */
         
@@ -441,6 +462,14 @@ form .option, .ton{
         .footer a:hover img{
             /*transform: translateY(-20px);*/
             transform: rotateZ(30deg);
+        }
+
+        .contact-h1{
+            display: none;
+        }
+
+        .contact-hii{
+            display: block;
         }
 
 }
